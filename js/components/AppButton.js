@@ -10,7 +10,7 @@ export default {
               }"
               :disabled=processing
             >
-              <slot />
+              submit
             </button>`,
 
     props: {
