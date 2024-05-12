@@ -20,9 +20,9 @@ export default {
     data() {
         return {
           assignments: [
-            { name: "learn vue 3", complete: false, id: 1 },
-            { name: "go to market", complete: false, id: 2 },
-            { name: "practise javascript", complete: false, id: 3 },
+            { name: "go to gym", complete: false, id: 1, tag: 'exercise' },
+            { name: "learn vue", complete: false, id: 2, tag: 'read' },
+            { name: "The 5 AM Club", complete: false, id: 3, tag: 'read' },
           ],
         };
       },
