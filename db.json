@@ -1,0 +1,8 @@
+{
+  "assignments": [
+    { "name": "go to gym", "complete": false, "id": 1, "tag": "exercise" },
+    { "name": "Read Friends", "complete": false, "id": 2, "tag": "read" },
+    { "name": "go for walk", "complete": false, "id": 3, "tag": "exercise" },
+    { "name": "learn vue", "complete": false, "id": 4, "tag": "programming" }
+]
+}

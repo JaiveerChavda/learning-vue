@@ -19,14 +19,16 @@ export default {
 
     data() {
         return {
-          assignments: [
-            { name: "go to gym", complete: false, id: 1, tag: 'exercise' },
-            { name: "learn vue", complete: false, id: 2, tag: 'read' },
-            { name: "The 5 AM Club", complete: false, id: 3, tag: 'read' },
-          ],
+          assignments: [],
         };
       },
   
+    created(){
+        fetch("http://localhost:3001/assignments")
+            .then(response => response.json())
+                .then(data => this.assignments = data )
+    },
+
     computed: {
         filters(){
             return {
