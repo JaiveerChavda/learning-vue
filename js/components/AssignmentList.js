@@ -13,8 +13,7 @@ export default {
     <h2 class="font-bold mb-2">{{ title }} <span> ({{ assignments.length }}) </span></h2>
 
     <assignment-tags 
-      @change="currentTag = $event"
-      :currentTag="this.currentTag"
+      v-model:currentTag="currentTag"
       :initialTags="this.assignments.map(a => a.tag)"
     >
     </assignment-tags>    
